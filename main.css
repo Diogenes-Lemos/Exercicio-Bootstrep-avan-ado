@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #363636, #000000);
+    font-family: 'Comfortaa' , sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header form {
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 20px 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+    header form {
+        margin-right: 5px;
+        margin-left: 40px;
+    }
+
+    form button {
+        margin-top: 5px;
+    }
+} 
